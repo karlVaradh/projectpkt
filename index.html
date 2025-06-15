@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Portal</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="assets/styles.css"/>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Student Portal</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#assignments">Assignments</a></li>
+        <li class="nav-item"><a class="nav-link" href="#project">Project</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Assignments Section -->
+  <div class="container mt-5" id="assignments">
+    <h2 class="mb-4">Assignments</h2>
+
+    <div class="accordion" id="assignmentAccordion">
+      <!-- Assignment 1 -->
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#assignment1">
+              Assignment 1
+            </button>
+          </h2>
+        </div>
+        <div id="assignment1" class="collapse" data-parent="#assignmentAccordion">
+          <div class="card-body">
+            <ul>
+              <li><a href="assignments/assignment1/am.en.u4ece22003.pkt" download>am.en.u4ece22003</a></li>
+              <li><a href="assignments/assignment1/am.en.u4ece220039.pkt" download>am.en.u4ece220039</a></li>
+              <li><a href="assignments/assignment1/am.en.u4ece22042.pkt" download>am.en.u4ece22042</a></li>
+              <li><a href="assignments/assignment1/am.en.u4ece22043.pkt" download>am.en.u4ece22043</a></li>
+              <li><a href="assignments/assignment1/am.en.u4ece22057.pkt" download>am.en.u4ece22057</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Assignment 2 -->
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#assignment2">
+              Assignment 2
+            </button>
+          </h2>
+        </div>
+        <div id="assignment2" class="collapse" data-parent="#assignmentAccordion">
+          <div class="card-body">
+            <ul>
+              <li><a href="assignments/assignment2/am.en.u4ece22003.pkt" download>am.en.u4ece22003</a></li>
+              <li><a href="assignments/assignment2/am.en.u4ece220039.pkt" download>am.en.u4ece220039</a></li>
+              <li><a href="assignments/assignment2/am.en.u4ece22042.pkt" download>am.en.u4ece22042</a></li>
+              <li><a href="assignments/assignment2/am.en.u4ece22043.pkt" download>am.en.u4ece22043</a></li>
+              <li><a href="assignments/assignment2/am.en.u4ece22057.pkt" download>am.en.u4ece22057</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project Section -->
+  <div class="container mt-5" id="project">
+    <h2 class="mb-4">Project</h2>
+    <p>You can download the project files below:</p>
+    <ul>
+      <li><a href="project/project-description.pdf" download>Download Project Description</a></li>
+      <!-- Add more project files as needed -->
+    </ul>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center mt-5 p-3 bg-dark text-white">
+    © 2025 Student Portal. All rights reserved.
+  </footer>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
